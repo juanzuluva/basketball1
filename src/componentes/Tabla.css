@@ -1,0 +1,43 @@
+/* componentes/tabla.css */
+body {
+  font-size: 16px;
+}
+
+.contenido {
+  width: 80%; /* O cualquier porcentaje que se adapte a tus necesidades */
+  margin: 0 auto;
+}
+
+table {
+  width: 300%;
+  border-collapse: collapse;
+  margin-top: 80px;
+  font-family: 'Arial', sans-serif;
+  border: 2px solid #2c3e50;
+  background-color: #ecf0f1;
+}
+
+th, td {
+  border: 2px solid #f8f5f5;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #141414; /* Fondo negro para los encabezados */
+  color: white; /* Texto blanco para los encabezados */
+}
+
+tr:hover {
+  background-color: #f7fafc;
+}
+
+/* Agregar estilos personalizados para filas pares e impares */
+tr:nth-child(even) {
+  background-color: #949797;
+}
+
+tr:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+

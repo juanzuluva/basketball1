@@ -1,0 +1,34 @@
+/* componentes/tabla.css */
+body {
+  font-size: 16px;
+}
+
+.contenido {
+  width: 80%; /* O cualquier porcentaje que se adapte a tus necesidades */
+  margin: 0 auto;
+}
+
+.buscador {
+  padding: 12px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.buscador input {
+padding: 10px;
+width: 100%;
+box-sizing: border-box;
+}
+
+.contenido {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.botones {
+display: flex;
+margin-top: 10px;
+}
+
+
