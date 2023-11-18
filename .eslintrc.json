@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser":true,
+        "es20211":true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "plugins:react/recommended",
+        "plugins:react/jsx-runtime",
+        "standard",
+        "eslint-config-prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["react"],
+    "rules": {
+        "react/prop-type":"off"
+    }
+}

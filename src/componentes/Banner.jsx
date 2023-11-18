@@ -1,15 +1,15 @@
 // src/componentes/Banner.js
-import React from 'react';
+//import React from 'react';
 import './Banner.css';
 
 function Banner() {
   return (
     <div>
       {/* Banner negro */}
-      <div className="banner banner-negro"></div>
-
+      <div className="banner-negro"></div>
+ 
       {/* Banner naranja */}
-      <div className="banner banner-naranja">
+      <div className="banner-naranja">
         {/* Logo en el banner naranja */}
         <img
           src="/logo.png" // Reemplaza con la ruta correcta de tu logo

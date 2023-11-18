@@ -1,6 +1,6 @@
 
 .banner {
-  height: 60px;
+  height: 72px;
   display: flex;
   align-items: center;
   color: white;
@@ -8,11 +8,19 @@
 
 .banner-negro {
   background-color: #030303;
-  height: 60px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
+
 
 .banner-naranja {
   background-color: #fd6805c5;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .container {
@@ -31,6 +39,7 @@
 }
 
 .logo-en-banner {
-  width: 135px; /* Ajusta el tamaño del logo según sea necesario */
+  width: 165px; /* Ajusta el tamaño del logo según sea necesario */
   height: auto; /* Mantiene la proporción original del logo */
+  margin-left: 143px;
 }

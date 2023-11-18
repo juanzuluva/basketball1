@@ -7,17 +7,18 @@ body {
 }
 
 .banner {
-  height: 60px;
+  height: 72px;
   display: flex;
   align-items: center;
   color: white;
 }
 
-
-
 .roster {
-  font-size: 24px;
+  font-size: 34px;
   margin: 10px 0;
+  margin: 33px auto;
+  margin-left: 11%;
+  font-weight: bolder;
 }
 
 

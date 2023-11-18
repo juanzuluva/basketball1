@@ -12,6 +12,7 @@ body {
   padding: 12px;
   width: 30%;
   box-sizing: border-box;
+  margin-left: 10%
 }
 
 .buscador input {
@@ -28,7 +29,8 @@ align-items: flex-start;
 
 .botones {
 display: flex;
-margin-top: 10px;
+margin-top: 16px;
+margin-left: 11%;
 }
 
 

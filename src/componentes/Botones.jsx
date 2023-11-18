@@ -2,7 +2,7 @@
 import React from 'react';
 import './Botones.css';
 
-function Botones({
+function Botones ({
   cambiarColorPar,
   cambiarColorImpar,
   mostrarSolo10Elementos,
@@ -14,8 +14,8 @@ function Botones({
 
     
     <div className="botones">
-      <button onClick={cambiarColorPar}>Cambiar Color Pares</button>
-      <button onClick={cambiarColorImpar}>Cambiar Color Impares</button>
+      <button onClick={cambiarColorImpar}>Pintar pares</button>
+      <button onClick={cambiarColorPar}>pintar impares</button>
       <button onClick={mostrarSolo10Elementos}>
         Mostrar Solo 10
       </button>
