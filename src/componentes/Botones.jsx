@@ -15,7 +15,7 @@ function Botones ({
     
     <div className="botones">
       <button onClick={cambiarColorImpar}>Pintar pares</button>
-      <button onClick={cambiarColorPar}>pintar impares</button>
+      <button onClick={cambiarColorPar}>Pintar impares</button>
       <button onClick={mostrarSolo10Elementos}>
         Mostrar Solo 10
       </button>

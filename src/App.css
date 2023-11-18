@@ -6,12 +6,20 @@ body {
   background-color: #f8f8f8;
 }
 
-.banner {
+.banner-negro {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.banner-naranja {
   height: 72px;
   display: flex;
   align-items: center;
   color: white;
 }
+
 
 .roster {
   font-size: 34px;

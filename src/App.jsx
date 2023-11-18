@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Tabla from './componentes/Tabla';
 import Banner from './componentes/Banner';
 import Botones from './componentes/Botones';
