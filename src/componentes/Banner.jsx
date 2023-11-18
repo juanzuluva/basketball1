@@ -1,5 +1,6 @@
 // src/componentes/Banner.js
 import React from 'react';
+import './Banner.css';
 
 function Banner() {
   return (
@@ -16,7 +17,7 @@ function Banner() {
           className="logo-en-banner"
         />
         <div className="texto-centrado">
-          <p>Autor: Juan Pablo Zuluaga. Programación IV, Proyecto final.</p>
+          <p></p>
         </div>
       </div>
     </div>

@@ -14,11 +14,11 @@ function App() {
   const [busqueda, setBusqueda] = useState('');
 
   const cambiarColorPar = () => {
-    setColorFondoPar(colorFondoPar === 'white' ? 'red' : 'white');
+    setColorFondoPar(colorFondoPar === 'white' ? 'grey' : 'white');
   };
 
   const cambiarColorImpar = () => {
-    setColorFondoImpar(colorFondoImpar === 'white' ? 'green' : 'white');
+    setColorFondoImpar(colorFondoImpar === 'white' ? 'grey' : 'white');
   };
 
   const mostrarSolo10Elementos = () => {
